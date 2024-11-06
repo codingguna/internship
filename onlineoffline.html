@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>online offline</title>
+	<style>
+		body{
+			background-color: lightskyblue;
+			margin: 0;
+		}
+		h1{
+			text-align: center;
+			padding-top: 1rem;
+		}p{
+			text-align: center;
+			padding: 0.3rem 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			margin: 0 0 0.5rem 0;
+			display: none;
+
+		}#online{
+			background-color: green;
+		}#offline{
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+	<h1>welcome</h1>
+	<p id="offline">no internet</p>
+	<p id="online">back online</p>
+	<script>
+		let online = document.getElementById('online');
+		let offline = document.getElementById('offline');
+		winodw.addEventListener('online', function() {
+			online.style.display = "block";
+		})
+		winodw.addEventListener('offline', function(){
+			offline.style.display = "block";
+		})
+	</script>
+</body>
+</html>

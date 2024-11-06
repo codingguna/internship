@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- html program for bulb on and off\-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb</title>
+<!-- css for design -->
+    <style>
+        body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }p{
+            padding-top: 20px;
+            padding-left: 40px;
+        }
+        button{
+            border-radius: 20px;
+            padding: 10px;
+            background-color:rgba(20,210,210,0.3);
+            color:darkblue ;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: blueviolet;
+            color: black;
+        }
+    </style>
+</head>
+<body>  
+    <h1 style="text-align: center;">BULB</h1>
+    <img src="bulb0ff.png" alt="bulb off" id="image" width="200" height="200">
+    <!-- button and js function -->
+    <p>
+        <button type="button" onclick="document.getElementById('image').src='bulbon.png'" >light on</button>
+        <button type="button" onclick="document.getElementById('image').src='bulb0ff.png'">light off</button>
+    </p>
+
+</body>
+</html>

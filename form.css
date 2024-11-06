@@ -1,0 +1,21 @@
+body{
+  background-color: skyblue;
+  text-align: center;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+input{
+  text-align: center;
+  color: blue;
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid black
+}
+button{
+  background-color: black;
+  color: white;
+  border: 1px solid white
+}
+

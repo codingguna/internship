@@ -1,0 +1,42 @@
+#por{
+	justify-content: space-around;
+	display: flex;
+	margin: 20px;
+	border: 2px solid red;
+	font-family: courier;
+}
+.par{
+
+	margin: 20px;
+	border: 2px solid black;
+	font-family: courier;
+}
+.akka{
+	margin: 20px;
+	border: 2px solid black;
+	font-family: courier;
+}
+button {
+	background-color:black;
+	color: white;
+}
+header{
+	text-align: center;
+	font-size:300%;
+}
+body{
+	background-color: greenyellow;
+}
+h1{
+	color: red;
+	border: 1px solid black;
+}
+h2{
+	color: blue;
+	border: 1px solid black;
+}
+h4
+{
+	color: chocolate;
+	border: 1px solid black;
+}

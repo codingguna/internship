@@ -1,0 +1,19 @@
+body{
+	background-color: rgb(200,180, 250);
+	font-family: courier;
+}
+label{
+	color: #a2d;
+	padding-left: 50px;
+}
+optgroup{
+	color: red;
+}
+option{
+	color: #a2d;
+}
+img{
+	width: 500;
+	height: 300;
+	padding-left: 100;
+}

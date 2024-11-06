@@ -1,0 +1,19 @@
+body{
+	background-color: yellowgreen;
+}
+h3{
+	text-align: center;
+	font-family: courier;
+	font-size: 250%;
+	border: 2px solid #a2d;
+	padding: 30px;
+}
+form{
+	border: 2px solid #a2d ;
+	font-family: courier;
+	font-size: 100%;
+	padding: 50px;
+}
+img{
+	padding-left: 100px;
+}

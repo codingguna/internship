@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #04AA6D;} /*Green*/
+.button2 {background-color: #008CBA;} /* Blue */
+</style>
+<title>
+  button
+</title>
+</head>
+<body >
+<h2 style="text-align: center;" id="h2">color button</h2>
+<button type="button" class="button1">Green</button>
+<button type="button" id="button" class="button2">Blue</button>
+<script>try{
+  document.querySelectorAll("button").forEach((bt)=>{
+    bt.addEventListener("click",()=>{
+    console.log("button 1 clicked");});
+  });}catch(error){
+    console.error("error occured :"+error);
+  };
+/*document.getElementById("button").onclick = function(){
+  document.getElementById("h2").innerHTML="Button";
+};*/
+</script></body>
+</html>
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Client-side Scripting</title>
+    <style>body {
+        font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+        color: green;
+    }
+    
+    input, button {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    p {
+        color: blue;
+        font-weight: bold;
+    }
+    </style>
+    
+</head>
+<body>
+    <h1>Interactive Web Page</h1>
+    <input type="text" id="inputField" placeholder="Type something...">
+    <button id="showTextButton">Show Text</button>
+    <p id="output"></p>
+    <script>
+        document.getElementById("showTextButton").addEventListener("click", function() {
+            const inputText = document.getElementById("inputField").value;
+            document.getElementById("output").textContent = inputText;
+        });
+    </script>
+</body>
+</html>

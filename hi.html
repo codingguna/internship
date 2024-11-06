@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>multimeadia</title>
+</head>
+<body >
+  <h2>image</h2>
+  <img src="cart.png" alt="img" width="200">
+  <br><br>
+  <h2>audio</h2>
+  <audio controls autoplay muted>
+    <source src="Audio.mp3" type="audio/mp3">
+  </audio><br><br>
+  <h2>video</h2>
+  <video controls autoplay muted width="300" height="350">
+    <source src="Video.mp4" type="video/mp4">
+  </video>
+  <button id='bt' >click</button>
+  
+  <script>
+  let a=document.querySelector("button");
+  a.addEventListener("click",()=>{alert("button clicked");});
+  
+  </script>
+</body>
+</html>
